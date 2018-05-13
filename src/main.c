@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "ordena.h"
+#include "src/ordena.h"
 
 int main() {
     Vetor A;

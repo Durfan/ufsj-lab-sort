@@ -1,4 +1,4 @@
-#include "ordena.h"
+#include "src/ordena.h"
 
 // Ordenação por Seleção
 void selecao(Vetor a, Indice *n) {
