@@ -70,6 +70,17 @@ void particionar(Indice esq, Indice dir, Indice *i, Indice *j, Vetor a) {
     } while (*i <= *j);
 }
 
+void ordenar(Indice esq, Indice dir, Vetor a) {
+    Indice i, j;
+    particionar(esq, dir, &i, &j, a); 
+    if (esq < j) ordenar(esq, j, a);
+    if (i < dir) ordenar(i, dir, a);
+}
+
+void quicksort(Vetor a, Indice *n) {
+    ordenar(1, *n, a);
+}
+
 // Heapsort
 void refazer(Indice esq, Indice dir, Vetor a) {
     Indice i = esq;
