@@ -7,7 +7,7 @@ CFLAGS   = -g -std=c99 -Wall -I.
 
 LINKER   = gcc
 # linking flags
-LFLAGS   = -Wall -I. -lm
+LFLAGS   = -g -Wall -I. -lm
 
 # directories
 SRCDIR   = src
