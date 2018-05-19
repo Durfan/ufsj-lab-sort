@@ -1,6 +1,6 @@
 #include "src/ordena.h"
 
-// Ordenação por Selecao
+// Ordenação por Seleção
 void selecao(Vetor a, Indice *n) {
     Indice i, j, min;
     Item x;
